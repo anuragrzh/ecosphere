@@ -91,7 +91,7 @@ export default function Dashboard() {
 
 
       <h1 className="text-3xl font-bold text-gray-800">
-        ESG Dashboard
+        🌍 ESG Performance Dashboard
       </h1>
 
 

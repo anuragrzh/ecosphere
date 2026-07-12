@@ -7,6 +7,7 @@ import Governance from "./pages/Gamification";
 import Gamification from "./pages/Gamification";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import Login from "./pages/Login";
 
 
 function App(){
@@ -18,6 +19,10 @@ function App(){
       <MainLayout>
 
         <Routes>
+          <Route 
+path="/login" 
+element={<Login/>}
+/>
 
           <Route 
             path="/" 
